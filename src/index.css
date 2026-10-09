@@ -1,0 +1,66 @@
+:root {
+  font-family: Arial, "Noto Sans Georgian", sans-serif;
+  color: #292522;
+  background: #fbf9f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --paper: #fbf9f6;
+  --sand: #f1ece5;
+  --ink: #292522;
+  --ink-soft: #4e4945;
+  --muted: #77716c;
+  --rose: #a67060;
+  --line: #e7e0d9;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: Arial, "Noto Sans Georgian", sans-serif;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 78px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--sans);
+  line-height: 1.6;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: #ead5cb;
+  color: var(--ink);
+}
+
+@media (max-width: 680px) {
+  html {
+    scroll-padding-top: 68px;
+  }
+}
